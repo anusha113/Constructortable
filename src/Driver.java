@@ -1,7 +1,11 @@
 public class Driver {
     public static void main(String[] args)
-    { //create object
-        Welcome w=new Welcome(10);
+    {  int number=10;
+        for(int i=1;i<=11;i++)
+
+        {
+            System.out.printf("%d * %d=%d\n",number,i,number*i);
+        }
     }
 }
 
